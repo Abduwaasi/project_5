@@ -1,0 +1,118 @@
+
+
+@media all and (max-width:1200px) {
+    /* Everything Acceptable*/
+    
+}
+
+@media all and (max-width:991px) {
+     /* Everything Acceptable*/
+    
+}
+
+@media all and (max-width:768px) {
+    .header-div{
+        flex-direction: column;
+    }
+    .nav-bar{
+        margin-bottom: 30px;
+        
+    }
+    .nav-bar a{
+        font-size: 17px;
+        padding: 10px 15px;
+        margin: 0 10px;
+    }
+    
+    .about-me h2{
+        font-size: 20px;
+    }
+    .about-images{
+        flex-direction: column;
+    }
+    
+    .images {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .portfolio-section h2{
+        font-size: 20px;
+    }
+    
+    
+    
+    .portfolio-div img {
+        width: 47%;
+        
+    }
+    
+    .blog-section h2{
+        font-size: 20px;
+    }
+    
+    .blog-text img{
+        float: none;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .contact-me h2{
+        font-size: 20px;
+    }
+    form label{
+        font-size: 17px;
+    }
+    form input, form textarea{
+        width: 95%
+    }
+    
+
+    footer p{
+        font-size: 17px;
+        padding: 15px;
+    
+    }
+    
+    
+}
+
+@media all and (max-width:480px) {
+    .hamburger-menu{
+        display: inline;
+       
+    }
+    .nav-bar a{
+        
+        display: block;
+        padding-bottom: 20px;
+    
+    }
+    .about-me h2,
+    .portfolio-section,
+    .contact-me h2{
+        font-size: 17px;
+    }
+    .about-me p{
+        font-size: 14px;
+    }
+    .images h3{
+        font-size:17px;
+        font-weight: 400;
+    }
+    .portfolio-div img {
+        width: 100%;
+    }
+    form label{
+        font-size: 14px;
+    }
+    form button{
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+}
+
+@media all and (max-width:320px) {
+    
+}
